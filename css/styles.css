@@ -137,14 +137,11 @@ body {
 
 #footer {
   background: #000;
+  color: #808080;
 }
 
 #footer .container-fluid {
   padding: 7% 15%;
-}
-
-.col-lg-6 h6 {
-  color: green;
 }
 
 .footer-links li {
