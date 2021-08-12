@@ -1,0 +1,178 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand {
+  max-width: 30%;
+}
+
+.logo {
+  width: 30%;
+  max-width: 30px;
+}
+
+#title {
+  background: url("../img/muzeatre.png");
+  background-size: cover;
+  background-position: center;
+  padding: 7% 15%;
+}
+
+.navbar {
+  background: #000;
+}
+
+.iphone-container {
+  position: relative;
+}
+
+.iphone-img {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .iphone-img {
+    display: inline-block;
+    width: 50%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -10%);
+    position: absolute;
+    z-index: 0;
+  }
+}
+
+#title h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.download-btn {
+  margin: 7% 2%;
+  width: 100%;
+}
+
+#features {
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#features h2 {
+  line-height: 1.5;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.feature {
+  padding: 3% 2%;
+}
+
+.icon-container {
+  margin: 20px;
+  color: #456e53;
+}
+
+.feature p {
+  padding: 0 15%;
+  color: #6f8878;
+}
+
+#cta {
+  background: url("../img/muzeatre.png");
+  background-size: cover;
+  background-position: center;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+#cta h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.pricing-table {
+  padding: 7% 15%;
+}
+
+.card {
+  margin: 3% 0;
+}
+
+.card-header {
+  text-align: center;
+  /* color: #fff; */
+  /* background: rgb(84, 116, 81); */
+}
+
+.make-wrong {
+  color: rgb(211, 58, 58);
+}
+
+.make-right {
+  color: green;
+}
+
+#pricing h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 7%;
+}
+
+#footer {
+  background: #000;
+}
+
+#footer .container-fluid {
+  padding: 7% 15%;
+}
+
+.col-lg-6 h6 {
+  color: #a1a1a1;
+}
+
+.footer-links li {
+  padding: 5px;
+}
+
+.footer-links li a,
+.footer-heading a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover,
+.footer-links li a:focus,
+.footer-heading a:hover,
+.footer-heading a:focus {
+  color: #007c29;
+}
+
+.footer-col {
+  padding: 5% 0;
+}
+
+.division-1 {
+  padding: 3% 2%;
+}
+
+.copyright {
+  padding-top: 30px;
+  text-align: center;
+}
